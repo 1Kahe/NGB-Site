@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="refresh" content="0; url=./Tela%20Abertura/index.html" />
+    <title>Redirecionando...</title>
+  </head>
+  <body>
+    Redirecionando para a tela de abertura... <br />
+    Se não for redirecionado, <a href="Tela%20Abertura/index.html">clique aqui</a>.
+  </body>
+</html>
