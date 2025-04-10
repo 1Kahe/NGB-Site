@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Protoco do Problema</title>
+    <link rel="stylesheet" href="styles.css">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="../icon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../icon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../icon/favicon-16x16.png">
+    <link rel="manifest" href="../icon/site.webmanifest">
+   
+</head>
+<body>
+    <body>
+        <header> 
+            <h3>NGB Support</h3>
+            <nav>
+                <a href="../Tela Abertura/index.html">Início</a>
+                <a href="../Tela inicial/index.html">Problema Novo</a>
+            </nav>
+        </header>
+    </body>
+    
+
+    <main>
+        <table id="problemasTable">
+            <thead>
+                <tr>
+                    <th>Problema</th>
+                    <th>Resolução</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        <select onchange="mostrarDetalhes(this)">
+                            <option value="">Selecione o problema: </option>
+                            <option value="comunicacao">Problema de Comunicação</option>
+                            <option value="organizacao">Problema de Organização</option>
+                            <option value="conflito">Problema de Conflito</option>
+                        </select>
+                    </td>
+                    <td id="descricaoProblema"></td>
+                </tr>
+            </tbody>
+        </table>
+    </main>
+
+    <footer>
+        <p>Entre em contato com o DEV caso não tenha conseguido achar seu problema.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
